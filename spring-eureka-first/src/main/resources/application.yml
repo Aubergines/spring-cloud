@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: false
 spring:
   application:
-    name: eureka-server
+    name: eureka-server-one
   security:
     user:
       name: admin

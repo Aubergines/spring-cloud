@@ -11,3 +11,8 @@ eureka:
 spring:
   application:
     name: redis-server
+  redis:
+    cluster:
+      nodes: redis-cluster:16001,redis-cluster:16002,redis-cluster:16003
+    password: aubergine
+    
