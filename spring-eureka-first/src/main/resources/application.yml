@@ -3,6 +3,8 @@ server:
 eureka:
   instance:
     hostname: peer1
+  server:
+    enable-self-preservation: false
   client:
     fetch-registry: false
     serviceUrl:
